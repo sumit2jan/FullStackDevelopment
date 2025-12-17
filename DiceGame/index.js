@@ -11,7 +11,7 @@ const img2 = document.querySelector(".img2");
 const rollBtn = document.getElementById("rollBtn");
 
 function rollDice(){
-    const value1 = Math.floor(Math.random() * 6);
+const value1 = Math.floor(Math.random() * 6);
 const value2 = Math.floor(Math.random() * 6);
 //console.log(value);
 
