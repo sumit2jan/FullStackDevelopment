@@ -7,7 +7,7 @@ h1 {
   font-size: 5rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  text-shadow: 3px 0 #928b8b;
 
 }
 
@@ -49,7 +49,7 @@ footer {
 }
 
 .game-over {
-  background-color: red;
+  background-color: rgb(192, 5, 5);
   opacity: 0.8;
 }
 
@@ -69,7 +69,7 @@ footer {
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
+  color: #3b3b44d0;
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
