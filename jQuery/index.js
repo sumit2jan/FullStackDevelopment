@@ -15,14 +15,46 @@ $("a").attr("href","https://www.w3schools.com/jquery/jquery_fade.asp").text("W3S
 
 //Adding EventListners to are JavaScript using Jquery.
 
-$("h1").click(function(){
-   $("h1").css("color","blue");
+// $("h1").click(function(){
+//    $("h1").css("color","blue");
+// });
+
+$("h1").on("click",function(){// more flexible way to add eventListner into are websites.
+   $("h1").css("color","rgba(220, 148, 40, 1)");
 });
 
 $("button").click(function(){
    $("h1").css("color","rgba(220, 40, 127, 1)");
 });
 
-$("body").keydown(function(){
+$("body").keydown(function(event){
     $("h1").css("color","rgba(40, 118, 220, 1)");
+    $("h1").text(event.key);
 })
+
+//Adding and removing the elements with jQuery.
+$("h1").before("<button> newbtn </button>")
+// before,after,prepend,append. like before we have all this two in are jQuery.
+//and to remove we have simple remove() method. like
+$("img").remove();   
+
+
+//Website Annimations With an jQuery
+
+//we have hide() method to hide.
+// toggle() to switch between hide and unhide.
+
+//we also have the fadeIn(),fadeOut(), and fadeToggle();
+
+// $("button").on("click",function(){
+//     $("h1").fadeToggle();
+// });
+
+//we also have the slideUp(),slideDown(), and slideToggle();
+
+
+// how to add an a custom css for an animation.
+//we use animate method to do that 
+$("button").on("click",function(){
+    $("h1").slideUp().slideDown().animate({opacity:0.5});
+}); 
