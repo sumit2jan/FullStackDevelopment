@@ -58,3 +58,5 @@ $("img").remove();
 $("button").on("click",function(){
     $("h1").slideUp().slideDown().animate({opacity:0.5});
 }); 
+
+// .fadeOut(100).fadeIn(100); we can use timeout like this in the Projects.
