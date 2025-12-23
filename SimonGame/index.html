@@ -9,7 +9,14 @@
 </head>
 
 <body>
-  <h1 id="level-title">Press A Key to Start</h1>
+  <h1 id="level-title">Press Any Key to Start</h1>
+
+  <div id="custom-alert" class="hidden">
+  <h2 id="warrior-title">New Rank Unlocked!</h2>
+  <p id="warrior-name"></p>
+  <button onclick="closeAlert()">Carry On!</button>
+  </div>
+
   <div class="container">
     <div class="row">
 
@@ -34,6 +41,10 @@
     </div>
 
   </div>
+
+<footer>
+  <p>© 2025 Created with ❤️ by <span>Sumit</span>. All Rights Reserved.</p>
+</footer>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="game.js"></script>
 </body>
