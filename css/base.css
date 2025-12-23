@@ -5,18 +5,22 @@
 }
 
 html {
-  font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: system-ui, sans-serif;
-  background: var(--bg-color);
-  color: var(--text-color);
+  background: radial-gradient(circle at top, #151515, #050505);
+  color: var(--text);
+  font-family: "Inter", system-ui, sans-serif;
   line-height: 1.7;
-  -webkit-font-smoothing: antialiased;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
 }
